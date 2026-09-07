@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Anagram Checker</title>
+</head>
+<body>
+<script>
+	let a="listen";
+	let b="silent";
+
+	let c=a.split("").sort().join("");
+	let d=b.split("").sort().join("");
+
+	if(c==d)
+	{
+		document.write(a+" and "+b+" are Anagrams");
+	}
+	else
+	{
+		document.write(a+" and "+b+" are not Anagrams");
+	}
+</script>
+</body>
+</html>
